@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Clarins Cosmetics E-project (Main)/website's CSS/Face 2.css">
+    <title>Clarins Cosmetics | Face</title>
+</head>
+<body>
+    <div class="products-container">
+        <div class="product">
+          <img class="product-image" src="product1-front.jpg" alt="Product 1">
+          <img class="product-image" src="product1-back.jpg" alt="Product 1">
+          <div class="product-details">
+            <h2 class="product-title">Product 1</h2>
+            <p class="product-price">$19.99</p>
+            <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div><br>
+        
+        <div class="product">
+          <img class="product-image" src="product2-front.jpg" alt="Product 2">
+          <img class="product-image" src="product2-back.jpg" alt="Product 2">
+          <div class="product-details">
+            <h2 class="product-title">Product 2</h2>
+            <p class="product-price">$29.99</p>
+            <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div><br>
+        
+        <!-- more products... -->
+        
+      </div>
+      
+      <div class="filters">
+        <h3>Filters</h3>
+        <label>Brand</label>
+        <select id="brand-filter">
+          <option value="">All</option>
+          <option value="brand1">Brand 1</option>
+          <option value="brand2">Brand 2</option>
+          <option value="brand3">Brand 3</option>
+        </select>
+        <label>Price</label>
+        <select id="price-filter">
+          <option value="">All</option>
+          <option value="under20">$0 - $19.99</option>
+          <option value="20to50">$20 - $49.99</option>
+          <option value="over50">$50+</option>
+        </select>
+        <label>Type</label>
+        <select id="type-filter">
+          <option value="">All</option>
+          <option value="type1">Type 1</option>
+          <option value="type2">Type 2</option>
+          <option value="type3">Type 3</option>
+        </select>
+      </div>
+      
+      <div class="offers">
+        <h3>Offers</h3>
+        <ul>
+          <li>Free shipping on orders over $50</li>
+          <li>Buy one get one free on select items</li>
+          <li>10% off your first purchase with code NEW10</li>
+        </ul>
+      </div>
+      
+      <div class="top-sellers">
+        <h3>Top Sellers</h3>
+        <ul>
+          <li>Product 1</li>
+          <li>Product 2</li>
+          <li>Product 3</li>
+        </ul>
+   </div>
+   <script src="/Clarins Cosmetics E-project (Main)/website's JS/Face.js"></script>
+</body>
+</html>
