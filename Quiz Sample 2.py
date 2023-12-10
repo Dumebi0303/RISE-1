@@ -33,12 +33,7 @@ def run_homelessness_assessment():
         b. Limited savings or financial instability
         c. Some debt, struggling financially
         d. No savings or financial safety net
-        e. Overwhelmed with debt and financial issues""", """Question 2:
-        a. Own a home
-        b. Renting stable housing
-        c. Renting, but unstable
-        d. Unstable housing or at risk of eviction
-        e. No permanent housing""",
+        e. Overwhelmed with debt and financial issues""",
         """Question 6:
         a. Strong support network (family, friends)
         b. Moderate support network
